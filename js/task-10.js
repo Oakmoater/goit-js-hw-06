@@ -26,5 +26,6 @@ function createBoxes(quantity) {
 
 destroyBtn.addEventListener('click', destroyBtnHandler);
 function destroyBtnHandler() {
-  boxes.innerHTML = ''
+  boxes.innerHTML = '';
+  boxesArray.splice(0, boxesArray.length);
 };
